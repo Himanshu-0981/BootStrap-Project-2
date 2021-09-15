@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+/* 'Baloo 2', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NavBar */
+
+
+#top_nav {
+  background-color: #daac00;
+  color: rgb(255 255 255);
+  padding: 0px 100px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255 255 255);
+  font-size: 18px;
+  padding-left: 25px;
+}
+
+/* nav-search box */
+
+#search-box::placeholder {
+  color: white;
+}
+
+#search-box {
+  background-color: #fcc302;
+  color: white;
+  border: 0px;
+  border-radius: 0;
+  position: relative;
+  left: 47px;
+  box-shadow: 5px 10px 11px 0px #00000021;
+}
+
+#search-btn {
+  position: relative;
+  z-index: 99;
+  background-color: #00bec9;
+  color: white;
+  border: 0;
+  border-radius: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  #search-form {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+    margin-left: -40px;
+  }
+  #top_nav {
+    padding: 0px;
+    position: relative;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #top_nav {
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+  }
+  
+}
+
+@media only screen and (max-width: 320px) {
+    .img-fluid {
+        max-width: 180px;
+        height: auto;
+        
+    }
+  
+}
+
+
+/* Banner */
+
+#banner{
+    background-color: #fcc302;
+    padding-bottom: 20px;
+}
+
+#banner-text h1{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#banner-text p{
+    color: white;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: start;  
+    font-family: 'Poppins', sans-serif;
+}
+
+#banner-btn-1{
+    background-color: #00bec9;
+    border: 2px solid #00bec9 ;
+    color: white;
+}
+
+#banner-btn-2{
+    background-color: #fcc302;
+    border: 2px solid white;
+    color: white;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width : 1300px){
+  #banner-text h1{
+    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+   }
+
+   #banner{
+     padding-bottom: 70px;
+   }
+
+}
+
+@media only screen and (max-width : 900px){
+  #banner-text h1{
+    font-size: 36px;
+   }
+
+   #banner-img{
+     padding-top: 100px;
+   }
+}
+
+@media only screen and (max-width : 768px){
+  #banner-text h1{
+    margin-top: 50px;
+  }
+
+  #banner-img{
+    padding-top: 30px;
+  }
+}
+
+
+@media only screen and (max-width : 992px){
+    #top_nav{
+      text-align: center;
+    }
+
+    #search-box{
+      margin-bottom: 30px;
+    }
+    #search-btn{
+      margin-bottom: 30px;
+    }
+
+}
+
+@media only screen and (max-width : 415px){
+    #heading{
+      font-size: 30px !important;
+      text-align: center;
+    }
+
+    #content{
+      font-size: 15px !important;
+      text-align: center !important;
+    }
+
+   .btn12{
+      text-align: center;
+    }
+}
+
+/* Services */
+
+#service-text{
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+#service-text h1{
+  padding-bottom: 5%;
+  font-weight: bold;
+}
+
+#service-btn{
+  color: white;
+  background-color: #daac00;
+  border: 2px solid #daac00;
+}
+
+#service-img-2{
+  padding-top: 10%;
+}
+
+@media only screen and (max-width : 1024px){
+  #service-text h1{
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width : 834px){
+  #service-text h1{
+    font-size: 28px;
+  }
+  #service-text p{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width : 768px){
+  #service-text h1{
+    font-size: 25px;
+  }
+  #service-text p{
+    font-size: 11px;
+  }
+}
+
+/* Title */
+
+#title-part{
+  background-color: #fcc302;
+}
+
+#title-part h1{
+  margin-top: 30px; 
+  color : white;    
+  text-shadow : 2px 0 white;
+  letter-spacing : 2px;
+  font-weight : bold;
+  font-size: 27px;
+}
+
+ #title-part p{
+  color: white;
+  letter-spacing: 1.2px;
+}
+
+@media only screen and (max-width : 1024px){
+  #title-part h1{
+    font-size: 20px;
+  }
+  
+   #title-part p{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width : 834px){
+  #title-part h1{
+    font-size: 16px;
+  }
+  
+   #title-part p{
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width : 768px){
+  #title-part h1{
+    font-size: 14px;
+  }
+  
+   #title-part p{
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width : 375px){
+
+  #title-part h1 {
+    font-size: 35px;
+  }
+
+   #title-part p{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width : 414px){
+
+  #title-part h1 {
+    font-size: 35px;
+  }
+
+   #title-part p{
+    font-size: 14px;
+  }
+
+  #title-img{
+    padding-left: 25px;
+  }
+}
+
+@media only screen and (max-width : 375px){
+
+  #title-part h1 {
+    font-size: 25px;
+  }
+
+   #title-part p{
+    font-size: 12px;
+  }
+
+  #title-img{
+    padding-left: 6px;
+  }
+}
+
+
+/* Service 2 */
+
+#service-2-img{
+  margin-top: 20px;
+}
+
+#service-2 h1{
+  margin-top: 90px;
+  text-align: end;
+  margin-right: 80px;
+}
+
+#service-2 p{
+  text-align: end;
+  margin-right: 80px;
+}
+
+#service-2 button{
+  margin-left: 340px;
+  background-color: #fcc302;
+  color: white;
+}
+
+@media only screen and (max-width : 1024px){
+  #service-2 h1{
+    font-size: 30px;
+  }
+
+  #service-2 p{
+    font-size: 11px;
+  }
+
+  #service-2 button{
+    margin-left: 202px;
+  }
+}
+
+@media only screen and (max-width : 834px){
+  #service-2 h1{
+    font-size: 25px;
+    margin-right: 50px;
+  }
+
+  #service-2 p{
+    font-size: 10px;
+    margin-right: 45px;
+  }
+
+  #service-2 button{
+    margin-left: 163px;
+  }
+}
+
+@media only screen and (max-width : 768px ){
+  #service-2 h1{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  #service-2 p{
+    font-size: 11px;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  #service-2 button{
+    font-size: 11px;
+    margin-right: 0px;
+    text-align: center;
+    margin-left: 135px;
+  }
+}
+
+@media only screen and (max-width : 414px ){
+    #service-2 button{
+      margin-left: 145px;
+    }
+}
+
+
+@media only screen and (max-width : 375px ){
+  #service-2 h1{
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 0px;
+    margin-bottom: 12px;
+  }
+
+  #service-2 p{
+    font-size: 10px;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  #service-2 button{
+    margin-left: 130px;
+  }
+}
+
+/* Pricing */
+
+#pricing{
+  background-color: #fcc302;
+  padding-bottom: 90px;
+}
+
+#pricing h1{
+  color: white;
+  text-shadow : 2px 0 white;
+  font-size: 50px;
+  margin-top: 30px;
+  font-family: 'Baloo 2', cursive;
+  font-weight: 900;
+}
+
+#pricing p{
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.pricing-span{
+  margin-right: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: 900;
+}
+
+.old-price{
+  text-decoration: line-through;
+}
+
+#pricing button{
+  margin-top: 10px;
+  background-color: #00bec9;
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  font-family: 'Baloo 2', cursive ;
+  margin-left: -12px;
+}
+
+/* Footer */
+
+#footer{
+  background-color: #343434;
+}
+
+#footer h1{
+  margin-top: 80px;
+  font-size: 25px;
+  color: white;
+  text-align: start;
+}
+
+#footer p{
+  color: white;
+  text-align: start;
+  font-size: 12px;
+}
+
+
+
+#search-box-footer{
+  background-color: #fcc302;
+  color: white;
+  border: 0px;
+  border-radius: 0;
+  position: relative;
+  left: 47px;
+  box-shadow: 5px 10px 11px 0px #00000021;
+}
+
+#search-btn-footer{
+  padding-top: 20px;
+  position: relative;
+  z-index: 99;
+  background-color: #00bec9;
+  color: white;
+  border: 0;
+  border-radius: 0;
+  padding-right: 60px;
+  text-align: center;
+}
+
+.img-telegram{
+  position: relative;
+  top: -5px;
+  right: -20px;
+  font-size: 22px;
+}
+
+#footer-p{
+  font-size: 16px;
+}
+
+.social-media{
+  color: white;
+  padding: 20px 10px;
+  font-size: 22px;
+  
+}
+
+.social-media span{
+  padding-right: 10px;
+  
+}
+
